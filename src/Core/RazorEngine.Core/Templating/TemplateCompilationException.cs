@@ -21,7 +21,7 @@
         /// <param name="errors">The set of compiler errors.</param>
         /// <param name="sourceCode">The source code that wasn't compiled.</param>
         /// <param name="template">The source template that wasn't compiled.</param>
-        internal TemplateCompilationException(CompilerErrorCollection errors, string sourceCode, string template)
+        public TemplateCompilationException(CompilerErrorCollection errors, string sourceCode, string template)
             : base("Unable to compile template. " + errors[0].ErrorText + "\n\nOther compilation errors may have occurred. Check the Errors property for more information.")
         {
             var list = errors.Cast<CompilerError>().ToList();

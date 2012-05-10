@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{8DA86295-C17
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorEngine.Mvc", "Web\RazorEngine.Mvc\RazorEngine.Mvc.csproj", "{878A8554-ACF1-4A0B-9BFC-6BD5FC5048C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorEngine.Web", "Web\RazorEngine.Web\RazorEngine.Web.csproj", "{992F8CCC-BA76-42A6-9807-4E49EDABF694}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +81,16 @@ Global
 		{878A8554-ACF1-4A0B-9BFC-6BD5FC5048C4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{878A8554-ACF1-4A0B-9BFC-6BD5FC5048C4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{878A8554-ACF1-4A0B-9BFC-6BD5FC5048C4}.Release|x86.ActiveCfg = Release|Any CPU
+		{992F8CCC-BA76-42A6-9807-4E49EDABF694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{992F8CCC-BA76-42A6-9807-4E49EDABF694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{992F8CCC-BA76-42A6-9807-4E49EDABF694}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{992F8CCC-BA76-42A6-9807-4E49EDABF694}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{992F8CCC-BA76-42A6-9807-4E49EDABF694}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{992F8CCC-BA76-42A6-9807-4E49EDABF694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{992F8CCC-BA76-42A6-9807-4E49EDABF694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{992F8CCC-BA76-42A6-9807-4E49EDABF694}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{992F8CCC-BA76-42A6-9807-4E49EDABF694}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{992F8CCC-BA76-42A6-9807-4E49EDABF694}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +101,7 @@ Global
 		{F4F5AB5F-BF81-4C0C-8F2E-68AB02160C4E} = {736162F9-990C-4DDA-BDC6-7FBDEC0AA857}
 		{BE202D69-7947-4E28-B43D-5E1FAFA8EDFB} = {31645D9C-55C6-43F4-A3EB-380DD82B338E}
 		{878A8554-ACF1-4A0B-9BFC-6BD5FC5048C4} = {8DA86295-C17B-4D67-8F94-E2463AD45459}
+		{992F8CCC-BA76-42A6-9807-4E49EDABF694} = {8DA86295-C17B-4D67-8F94-E2463AD45459}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
